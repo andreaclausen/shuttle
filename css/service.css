@@ -1,0 +1,233 @@
+/**
+ * service.css
+ *
+ * Computer Science 50
+ * Problem Set 8
+ *
+ * Global stylesheet.
+ */
+       
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#announcements
+{
+    background-color: white;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.41);
+    font-size: smaller;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#chart
+{
+    background-color: white;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.41);
+    bottom: 0px;
+    font-size: smaller;
+    height:305px;
+    margin: 5px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+
+
+#controls
+{
+    margin: 5px;
+    text-align: center;
+    heigt: 320px;
+}
+
+#dropdown
+{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#earth
+{
+    height: 70%;
+    margin-right: 50%;
+}
+
+#header
+{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+select#houses
+{
+   background: white;
+   border: 1px #cccccc solid;
+   border-radius: 3px;
+   font-size: smaller;
+   height: 30px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 155px;
+}
+
+#instructions
+{
+    font-size: smaller;
+    margin: 5px;
+    text-align: center;
+}
+
+#left
+{
+    float: right; 
+    height: 90%;
+    width: 100%;
+}
+
+#logo
+{
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#map
+{
+    border-top: 1px #cccccc solid;
+    height: 30%;
+    margin-right: 50%;
+}
+
+#middle
+{
+    background-color: #81D4FA;
+    float:right;
+    height: 90%;
+    margin-right: -100%;
+    padding-right: 385px;
+    width: 50%;
+}
+
+#name
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+}
+
+#picture
+{ 
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picture  img
+{
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#profile
+{
+    padding-top: 15%;
+    left: 0px;
+    position: relative;
+    width: 345px;
+}
+
+#right
+{
+    background-color: #4FC3F7;
+    float: right;
+    height: 90%;
+    margin-right: -100%;
+    padding: 20px;
+    width: 295px;
+    vertical-align: middle;
+}
+
+td span
+{
+    display:inline-block;
+    vertical-align:middle;
+    color: white;
+}
+
+#teleport
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teleport-dropdown
+{
+    margin: 5px;
+    text-align: right;
+}
+
+#thumbnail
+{ 
+    background-color: #f44336;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bold;,
+    height: 20px;
+    overflow: hidden;
+    width: 20px;
+    text-align: center;
+    
+}
+
+#thumbnail img
+{
+    display: block;
+    width: 20px;
+}
+
+
+
+#top
+{
+    background-color: #f44336;
+    box-shadow: 0px 7px 14px 0px rgba(0,0,0,0.41);
+    color: #ffffff;
+    font-family: Roboto, Helvetica;
+    font-size: 30px;
+    height: 10%;
+    padding-top: auto;
+    padding-left: 10px;
+    padding-bottom: auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
